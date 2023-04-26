@@ -1,0 +1,25 @@
+main{
+    margin-top: 1em;
+}
+
+.search-box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.search-container{
+    display: flex;
+    width: 100%;
+}
+
+.search-container input{
+    width: 80%;
+}
+
+.search-container button{
+    width: 20%;
+    margin-left: -0.5em;
+}
+
