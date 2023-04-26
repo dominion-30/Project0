@@ -47,7 +47,7 @@ main{
 
 .container a{
     text-decoration: none;
-    border:2px solid #ccc;
+    /* border:2px solid #ccc; */
     border-radius: 5px;
     padding: 0.5em;
 

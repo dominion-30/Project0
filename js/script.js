@@ -25,7 +25,8 @@ async function displayProducts(products){
     <p><strong>${product.category}</strong></p>
     <div><img src="${product.image}"></div>
     <p><strong>Price:${product.price}</strong></p>
-    <a href="/">Buy</a>
+    <button><a href="product.html?id=${product.id}">Buy</a></button>
+    
     
     </div>`;
 
