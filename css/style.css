@@ -21,14 +21,40 @@ main{
     width: 100%;
 }
 
-.search-container input{
+.search-container .search-field{
     width: 80%;
 }
 
-.search-container button{
+.search-container .search-button{
     width: 20%;
     margin-left: -0.5em;
 }
+
+.login.signup{
+    border: #ccc solid 2px;
+    border-radius: 5px;
+    margin-left: 5em;
+   
+}
+
+.login{
+    position: relative;
+    left: 5em;
+
+}
+
+.signup{
+    position: relative;
+    left: 8em;
+}
+
+.search-container a{
+    text-decoration: none;
+}
+/* .search-container .login{
+    position: relative;
+ width: 10%;
+} */
 
 #showProducts{
     display: flex;
