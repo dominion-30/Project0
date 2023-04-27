@@ -51,10 +51,7 @@ main{
 .search-container a{
     text-decoration: none;
 }
-/* .search-container .login{
-    position: relative;
- width: 10%;
-} */
+
 
 #showProducts{
     display: flex;
@@ -69,6 +66,7 @@ main{
  padding: 2.5em;
  border: 2px solid #ccc;
  border-radius: 5px;
+ overflow: hidden;
 }
 
 .container a{
@@ -78,7 +76,11 @@ main{
     padding: 0.5em;
 
 }
-
+.container .title{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
 .container img{
     width: 40%;
 }
